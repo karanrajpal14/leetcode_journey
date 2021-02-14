@@ -12,6 +12,7 @@ class Solution:
         
         # Approach 1 - From scratch
         
+        
         # count = {}
         
         # for char in s:
@@ -32,6 +33,12 @@ class Solution:
                 
         # return True
         
-        # Approach 2 - Using Counter
-        return Counter(s) == Counter(t)
         
+        # Approach 2 - Using Counter
+        
+        # return Counter(s) == Counter(t)
+        
+        
+        # Approach 3 - Sorting both strings
+        
+        return sorted(s) == sorted(t)
